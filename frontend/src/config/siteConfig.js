@@ -215,3 +215,54 @@ export const CTA_CONTENT = {
   subtitle: "Let us help you turn your idea into a scalable, production-ready product. From initial consultation to launch and beyond — IndCoders is your technology partner.",
   buttonText: "Start a Conversation",
 };
+
+export const TECH_STACK_DATA = [
+  {
+    name: "Frontend",
+    technologies: ["React", "Next.js", "Vue.js", "Tailwind CSS"],
+  },
+  {
+    name: "Backend",
+    technologies: ["Node.js", "Python", "Java", "Go"],
+  },
+  {
+    name: "Database",
+    technologies: ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+  },
+  {
+    name: "Cloud",
+    technologies: ["AWS", "Google Cloud", "Azure", "Docker"],
+  },
+  {
+    name: "Mobile",
+    technologies: ["React Native", "Flutter", "iOS", "Android"],
+  },
+  {
+    name: "DevOps",
+    technologies: ["Kubernetes", "Jenkins", "GitHub Actions", "Terraform"],
+  },
+];
+
+export const TESTIMONIALS_DATA = [
+  {
+    name: "John Doe",
+    role: "CTO",
+    company: "TechNexus",
+    quote: "IndCoders transformed our outdated infrastructure into a highly scalable cloud solution. Their team's technical depth is truly impressive.",
+    image: "",
+  },
+  {
+    name: "Sarah Jenkins",
+    role: "Founder",
+    company: "HealthSync",
+    quote: "We needed a reliable IT partner to build our HIPAA-compliant system. IndCoders delivered beyond our expectations on time and on budget.",
+    image: "",
+  },
+  {
+    name: "Marcus Thorne",
+    role: "VP of Engineering",
+    company: "Global Logistics",
+    quote: "Their full-stack expertise helped us launch our mobile fleet tracker months ahead of schedule. A highly professional and dedicated team.",
+    image: "",
+  },
+];
