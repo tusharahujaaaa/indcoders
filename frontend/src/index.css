@@ -174,3 +174,17 @@
   background: rgba(0, 112, 243, 0.3);
   color: #EDEDED;
 }
+
+/* Global button centering fix */
+button,
+[role="button"],
+a[class*="rounded-full"],
+.btn {
+  text-align: center;
+}
+
+button:not([class*="text-left"]) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

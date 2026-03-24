@@ -39,7 +39,7 @@ export default function CTASection() {
           <button
             data-testid="cta-get-started-btn"
             onClick={() => scrollTo("contact")}
-            className="group inline-flex items-center gap-3 rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 px-10 py-4 text-sm shadow-[0_0_40px_-8px_rgba(255,255,255,0.12)]"
+            className="group inline-flex items-center justify-center text-center gap-3 rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 px-10 py-4 text-sm shadow-[0_0_40px_-8px_rgba(255,255,255,0.12)]"
           >
             {CTA_CONTENT.buttonText}
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-300" />

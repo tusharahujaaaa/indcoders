@@ -15,191 +15,203 @@ export const CONTACT_INFO = {
 export const NAV_LINKS = [
   { label: "Home", href: "hero" },
   { label: "About", href: "about" },
+  { label: "Services", href: "services" },
   { label: "Projects", href: "projects" },
-  { label: "What We Do", href: "whatwedo" },
   { label: "Contact", href: "contact" },
 ];
 
 export const HERO_CONTENT = {
-  titleLine1: "Where Developers",
-  titleAccent: "Don't Just Learn",
-  titleLine2: "They Build.",
-  subtitle: "A community where developers don't just learn — they build. Real projects, real teams, real growth. No fluff, no gatekeeping.",
+  titleLine1: "We Build Software",
+  titleAccent: "That Drives Results",
+  titleLine2: "for Your Business.",
+  subtitle: "IndCoders is an IT services company delivering custom web applications, mobile solutions, cloud infrastructure, and digital transformation — built to scale your business.",
 };
 
 export const ABOUT_CONTENT = {
-  heading: "We Started with a Simple Idea",
+  heading: "An IT Company That Delivers, Not Just Promises",
   description:
-    "Most developer communities talk about learning. We decided to actually do it. IndCoders started as a group of developers tired of tutorial hell and passive learning. We wanted a space where you show up, pick a project, and start building — with people who genuinely want to see you grow.",
+    "IndCoders is an IT services company founded with one goal — to help businesses build reliable, scalable, and modern software solutions. We work with startups, SMBs, and enterprises to turn ideas into production-ready products. No outsourced teams, no communication gaps — just a dedicated engineering team that treats your project like their own.",
   mission:
-    "We exist to give developers — especially those just starting out — a space where they can build real things, get honest feedback, and grow alongside people who care. No corporate jargon, just code and collaboration.",
+    "To deliver high-quality software solutions that solve real business problems. We combine deep technical expertise with clear communication to ensure every project is delivered on time, on budget, and built to last.",
   vision:
-    "We want IndCoders to be the community we wished we had when we started. A place that helps developers in India go from 'I watched a tutorial' to 'I shipped a product' — and everything in between.",
+    "To become the most trusted IT services partner for businesses across India and beyond — known for engineering excellence, transparent processes, and solutions that actually drive revenue.",
   whyWeExist:
-    "Because watching tutorials alone doesn't make you job-ready. The gap between what colleges teach and what the industry expects is massive. We are here to close it — through hands-on projects, real collaboration, and honest mentorship.",
+    "Too many businesses get burned by agencies that overpromise and underdeliver. IndCoders exists to change that. We bring startup speed with enterprise-grade quality — and we stand behind every line of code we write.",
 };
 
 export const WHY_CHOOSE_FEATURES = [
   {
-    title: "You Ship, Not Just Study",
+    title: "End-to-End Development",
     description:
-      "Forget passive learning. Here you join real projects with real deadlines and build things that actually go live. That's how skills stick.",
+      "From initial consultation to deployment and maintenance — we handle the full software lifecycle so you can focus on running your business.",
     icon: "Code2",
   },
   {
-    title: "People Who Get It",
+    title: "Dedicated Engineering Team",
     description:
-      "Everyone here is on the same journey. You'll find devs who review your code at midnight, share resources without being asked, and celebrate your wins.",
+      "No freelancers, no rotating resources. You get a committed team of engineers who understand your product inside out and are invested in its success.",
     icon: "Users",
   },
   {
-    title: "Zero Gatekeeping",
+    title: "On-Time, On-Budget Delivery",
     description:
-      "First pull request? Great. Never used Git before? We'll show you. The only requirement is that you're willing to put in the work and stay curious.",
-    icon: "Heart",
-  },
-  {
-    title: "Skills That Actually Matter",
-    description:
-      "We focus on what gets you hired and makes you effective — system design, clean code, working in teams, debugging under pressure. Not just syntax.",
+      "We set realistic timelines, communicate proactively, and deliver what we promise. No scope creep surprises, no hidden costs, no missed deadlines.",
     icon: "Target",
   },
   {
-    title: "Mentors, Not Lecturers",
+    title: "Modern Tech Stack",
     description:
-      "Our mentors are working developers who've been through the struggle. They don't give speeches — they pair program with you and review your PRs.",
-    icon: "GraduationCap",
+      "React, Node.js, Python, cloud-native architectures, and AI integrations. We use the right tools for the job — not whatever is cheapest or easiest for us.",
+    icon: "Cpu",
   },
   {
-    title: "Open Source DNA",
+    title: "Scalable Architecture",
     description:
-      "Contributing to open source is how you prove you can code. We build tools the community actually uses and help you make meaningful contributions.",
-    icon: "GitBranch",
-  },
-];
-
-export const PROJECTS_DATA = [
-  {
-    title: "DevConnect",
-    description:
-      "A platform connecting developers for pair programming sessions and collaborative coding.",
-    techStack: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "#",
-    live: "#",
+      "Every solution we build is designed to grow with your business. Clean code, proper documentation, and infrastructure that handles 10 users or 10 million.",
+    icon: "TrendingUp",
   },
   {
-    title: "CodeReview Hub",
+    title: "Post-Launch Support",
     description:
-      "An open-source tool for structured peer code reviews with AI-assisted feedback.",
-    techStack: ["Next.js", "Python", "FastAPI", "PostgreSQL"],
-    github: "#",
-    live: null,
-  },
-  {
-    title: "LearnPath",
-    description:
-      "Curated learning roadmaps for developers with progress tracking and community recommendations.",
-    techStack: ["React", "Tailwind CSS", "Firebase"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "IndCoders CLI",
-    description:
-      "A command-line tool to scaffold projects, manage community resources, and access templates.",
-    techStack: ["Node.js", "TypeScript", "CLI"],
-    github: "#",
-    live: null,
+      "Our relationship does not end at deployment. We provide ongoing maintenance, performance monitoring, and feature updates to keep your product competitive.",
+    icon: "Shield",
   },
 ];
 
 export const SERVICES_DATA = [
   {
-    title: "Structured Learning Paths",
+    title: "Custom Web Development",
     description:
-      "We don't throw random resources at you. Our paths are curated by developers who've actually learned these stacks — with study groups to keep you accountable.",
-    icon: "BookOpen",
+      "Full-stack web applications tailored to your business needs — from responsive frontends to robust backend APIs. We build fast, secure, and scalable web solutions using React, Next.js, Node.js, and Python.",
+    icon: "Globe",
   },
   {
-    title: "Real Project Experience",
+    title: "Mobile App Development",
     description:
-      "You'll work on projects that ship. Not toy apps — real tools with users, deadlines, and code reviews. The kind of work that makes your portfolio stand out.",
-    icon: "Hammer",
+      "Cross-platform and native mobile applications for iOS and Android. From concept to app store — we build intuitive, performant mobile experiences that your users will love.",
+    icon: "Smartphone",
   },
   {
-    title: "Peer Collaboration",
+    title: "Cloud & DevOps Solutions",
     description:
-      "Pair programming, code reviews, hackathons, and brainstorming sessions. Learning is faster when you're doing it with people who challenge your thinking.",
-    icon: "HandshakeIcon",
+      "AWS, Azure, and GCP infrastructure setup, CI/CD pipelines, containerization, and auto-scaling. We architect cloud solutions that are reliable, cost-efficient, and production-ready.",
+    icon: "Cloud",
   },
   {
-    title: "Career Guidance",
+    title: "UI/UX Design",
     description:
-      "From resume reviews to mock interviews to 'should I take this job?' conversations — our mentors help you navigate the messy parts of a dev career.",
-    icon: "Compass",
+      "User-centered design that converts. We create wireframes, prototypes, and polished interfaces that look great and drive engagement — backed by research, not guesswork.",
+    icon: "Palette",
+  },
+  {
+    title: "API Development & Integration",
+    description:
+      "RESTful APIs, GraphQL endpoints, third-party integrations, and microservices architecture. We build the plumbing that connects your systems and scales with your data.",
+    icon: "Plug",
+  },
+  {
+    title: "IT Consulting & Strategy",
+    description:
+      "Not sure where to start? We help you evaluate your tech stack, plan your product roadmap, and make informed decisions that save time and money in the long run.",
+    icon: "Lightbulb",
+  },
+];
+
+export const PROJECTS_DATA = [
+  {
+    title: "E-Commerce Platform",
+    description:
+      "Built a high-performance e-commerce platform handling 10K+ daily transactions with real-time inventory management, payment gateway integration, and an admin dashboard.",
+    techStack: ["React", "Node.js", "MongoDB", "Stripe"],
+    github: "#",
+    live: "#",
+  },
+  {
+    title: "Healthcare Management System",
+    description:
+      "Developed a HIPAA-compliant patient management system with appointment scheduling, medical records, and real-time doctor-patient communication.",
+    techStack: ["Next.js", "Python", "FastAPI", "PostgreSQL"],
+    github: "#",
+    live: null,
+  },
+  {
+    title: "SaaS Analytics Dashboard",
+    description:
+      "Designed and built a real-time analytics dashboard for a SaaS startup — featuring data visualization, user segmentation, and automated reporting.",
+    techStack: ["React", "Tailwind CSS", "Firebase", "D3.js"],
+    github: "#",
+    live: "#",
+  },
+  {
+    title: "Logistics & Fleet Tracker",
+    description:
+      "Engineered a real-time fleet tracking system with GPS integration, route optimization, driver management, and automated dispatch notifications.",
+    techStack: ["React Native", "Node.js", "Redis", "Google Maps"],
+    github: "#",
+    live: null,
   },
 ];
 
 export const TEAM_DATA = [
   {
     name: "Founder",
-    role: "Founder & Lead",
-    tagline: "Started IndCoders from a hostel room",
+    role: "Founder & CEO",
+    tagline: "Engineering-first leadership",
     description:
-      "Built this community because they wished something like it existed when they started coding. Still codes every day.",
+      "Founded IndCoders to deliver IT solutions with integrity. Leads company strategy while staying hands-on with architecture decisions and client relationships.",
     image: "https://images.unsplash.com/photo-1595017734643-07386d930c6a?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
   {
-    name: "Core Member",
-    role: "Core Contributor",
-    tagline: "Full-stack dev & open source advocate",
+    name: "Tech Lead",
+    role: "CTO & Technical Lead",
+    tagline: "Full-stack architect & systems thinker",
     description:
-      "Leads project development and mentors new members. Believes the best code is written in collaboration.",
+      "Oversees all technical decisions, code quality, and infrastructure. Ensures every project is built with clean architecture and long-term scalability in mind.",
     image: "https://images.unsplash.com/photo-1533142215-a17cdfb95243?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
   {
-    name: "You?",
-    role: "Open for Contributors",
-    tagline: "This spot is waiting for you",
+    name: "We Are Hiring",
+    role: "Join Our Team",
+    tagline: "We are growing — come build with us",
     description:
-      "We're always looking for people who want to build, teach, or just show up consistently. Interested? Reach out.",
+      "We are looking for talented engineers, designers, and project managers who want to do meaningful work. If you value quality and ownership, let's talk.",
     image: "https://images.unsplash.com/photo-1532170579297-281918c8ae72?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
 ];
 
 export const BUILDING_CONTENT = {
-  heading: "Where We're Headed",
-  subtitle: "We're not just building software. We're building a generation of developers who ship.",
+  heading: "Where We Are Headed",
+  subtitle: "IndCoders is not standing still. Here is how we are growing to serve you better.",
   items: [
     {
       phase: "Now",
-      title: "Building the Core Community",
+      title: "Delivering Client Projects at Scale",
       description:
-        "Growing a tight-knit group of developers who learn by building together. Weekly projects, code reviews, and open discussions.",
+        "Currently serving clients across e-commerce, healthcare, logistics, and SaaS — with a growing team of engineers focused on quality and timely delivery.",
     },
     {
       phase: "Next",
-      title: "Launching Open Source Tools",
+      title: "Expanding Our Service Portfolio",
       description:
-        "Creating developer tools the community actually needs — and open-sourcing everything so others can contribute and benefit.",
+        "Adding AI/ML integration services, data engineering, and advanced cloud migration capabilities to help clients modernize their entire tech infrastructure.",
     },
     {
       phase: "Soon",
-      title: "Industry Partnerships",
+      title: "Strategic Partnerships & Global Reach",
       description:
-        "Connecting our members with startups and companies looking for developers who can actually build — not just pass interviews.",
+        "Building partnerships with technology vendors and expanding our client base internationally — bringing Indian engineering talent to the global stage.",
     },
     {
       phase: "Vision",
-      title: "India's Builder Community",
+      title: "A Trusted Technology Partner",
       description:
-        "A self-sustaining ecosystem where developers from any background can find mentorship, projects, and opportunities to grow.",
+        "Our goal is to be the first call businesses make when they need reliable, high-quality software. A company known for engineering excellence and honest partnerships.",
     },
   ],
 };
 
 export const CTA_CONTENT = {
-  heading: "Ready to Stop Watching and Start Building?",
-  subtitle: "Join a community of developers who learn by doing. Your next project, your next skill, your next opportunity — it all starts here.",
-  buttonText: "Get Started",
+  heading: "Have a Project in Mind?",
+  subtitle: "Let us help you turn your idea into a scalable, production-ready product. From initial consultation to launch and beyond — IndCoders is your technology partner.",
+  buttonText: "Start a Conversation",
 };

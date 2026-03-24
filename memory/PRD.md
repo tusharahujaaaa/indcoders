@@ -35,7 +35,15 @@ Build a fully responsive, modern, professional organization website for a develo
 - IntersectionObserver-based scroll animations
 - Backend email validation on contact endpoint
 
-### Iteration 2: UI/UX Refinement (Dec 2025)
+### Iteration 3: Button Centering + Content Overhaul (Dec 2025)
+- Fixed global button text alignment with inline-flex + items-center + justify-center on all buttons
+- Added global CSS rule for button centering in index.css
+- Rewrote all content to be benefit-driven and conversion-focused
+- Updated button labels: "Get Started", "Explore Our Work", "Talk to Us", "Join IndCoders Now", "Send Message"
+- Updated headings: "Built by Developers, for Developers", "Projects That Solve Real Problems", "What Makes Us Different", "Our Roadmap", "Your Next Level Starts Here"
+- All project descriptions rewritten with clear value propositions
+- Team roles and descriptions made more professional
+- Building section roadmap content strengthened with specifics
 - Rewrote all content to be natural, conversational, developer-authentic
 - Stronger hero headline: "Where Developers Don't Just Learn — They Build"
 - Removed arrow icon from hero, added live dot indicator badge

@@ -23,10 +23,10 @@ export default function TeamSection() {
           data-testid="team-heading"
           className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          The People Behind This
+          The Team Behind Your Product
         </h2>
         <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-2xl mb-20 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          Small team, big ambitions. Everyone here builds.
+          Experienced engineers and leaders who take ownership of your project like it is their own.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
