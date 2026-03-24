@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "name": "IndCoders",
+    "persona": "The 'Vercel' of Developer Communities. Professional, minimal, shipping-focused, elite yet accessible.",
+    "tone": "Technical, Inspirational, Direct, Modern.",
+    "theme_mode": "dark"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Space Grotesk, sans-serif",
+      "body": "Manrope, sans-serif",
+      "code": "JetBrains Mono, monospace"
+    },
+    "instructions": "Import fonts from Google Fonts in index.css: @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');",
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tighter",
+      "h2": "text-3xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-tight",
+      "body": "text-base md:text-lg leading-relaxed text-muted-foreground",
+      "small": "text-sm font-medium tracking-wide uppercase text-muted-foreground"
+    }
+  },
+  "colors": {
+    "background": {
+      "default": "#0A0A0A",
+      "paper": "#111111",
+      "subtle": "#171717"
+    },
+    "text": {
+      "primary": "#EDEDED",
+      "secondary": "#A1A1AA",
+      "muted": "#525252"
+    },
+    "primary": {
+      "main": "#0070F3",
+      "hover": "#3291FF",
+      "glow": "0 0 40px -10px rgba(0, 112, 243, 0.5)"
+    },
+    "accents": {
+      "purple": "#7928CA",
+      "cyan": "#50E3C2",
+      "gradient_text": "bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent"
+    },
+    "border": {
+      "subtle": "rgba(255, 255, 255, 0.08)",
+      "highlight": "rgba(255, 255, 255, 0.15)"
+    }
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section_gap": "py-24 md:py-32",
+      "element_gap": "gap-8"
+    },
+    "grid_system": {
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-8",
+      "bento": "grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6",
+      "team": "grid grid-cols-2 md:grid-cols-4 gap-6"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "bg-black/40 backdrop-blur-xl border border-white/10",
+    "glow_effects": "shadow-[0_0_50px_-12px_rgba(0,112,243,0.25)]",
+    "gradients": "bg-gradient-to-b from-white/5 to-transparent",
+    "noise_texture": "opacity-20 pointer-events-none mix-blend-overlay fixed inset-0 z-50 bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"
+  },
+  "components": {
+    "button": {
+      "primary": "rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 px-8 py-3",
+      "secondary": "rounded-full bg-white/10 border border-white/10 text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-md px-8 py-3",
+      "glow": "rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:opacity-90 shadow-lg shadow-blue-500/25 px-8 py-3"
+    },
+    "card": {
+      "base": "group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-8 hover:border-white/20 transition-colors duration-300",
+      "hover_effect": "hover:shadow-[0_0_30px_-5px_rgba(255,255,255,0.1)]"
+    },
+    "input": {
+      "base": "w-full rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-white placeholder:text-gray-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+    }
+  },
+  "image_urls": {
+    "hero": {
+      "url": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cyber security code abstract background",
+      "usage": "Hero section background or side visual with overlay"
+    },
+    "about": {
+      "url": "https://images.unsplash.com/photo-1685558589023-3297b012d8bc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Laptop workspace clean setup",
+      "usage": "About section visual"
+    },
+    "projects": [
+      {
+        "url": "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Data dashboard interface"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1590010358311-55d7c0769a3a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Dark monitor code screen"
+      }
+    ],
+    "team": [
+      {
+        "url": "https://images.unsplash.com/photo-1595017734643-07386d930c6a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Team Member 1 - Developer"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1533142215-a17cdfb95243?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Team Member 2 - Designer"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1532170579297-281918c8ae72?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Team Member 3 - Manager"
+      }
+    ]
+  },
+  "sections_guide": {
+    "header": {
+      "style": "fixed top-0 w-full z-50 bg-black/50 backdrop-blur-xl border-b border-white/5",
+      "content": "Logo (Left), Nav Links (Center), Join Button (Right)"
+    },
+    "hero": {
+      "layout": "Centered or Left-Aligned with 3D/Code Visual",
+      "elements": "H1 Gradient Text, Subtext, Dual Buttons (Join + Learn More), Trusted By Logos (Marquee)"
+    },
+    "about": {
+      "layout": "Split screen (Text + Image)",
+      "vibe": "Storytelling, minimal, high contrast"
+    },
+    "why_choose": {
+      "layout": "Bento Grid of features",
+      "cards": "Fast, Community, Open Source, Career Growth"
+    },
+    "projects": {
+      "layout": "Grid of Project Cards",
+      "card_style": "Image top, Title, Description, Tags, 'View Project' link"
+    },
+    "team": {
+      "layout": "Grid of Avatars/Cards",
+      "style": "Clean, friendly but professional"
+    },
+    "contact": {
+      "layout": "Simple Center Form",
+      "fields": "Name, Email, Message"
+    },
+    "footer": {
+      "style": "Large footer with multiple columns",
+      "elements": "Logo, Social Links, Quick Links, Newsletter"
+    }
+  },
+  "motion_guidelines": {
+    "general": "Use standard CSS transitions or simple keyframes. Avoid heavy libraries if possible, but Framer Motion is allowed if pre-installed.",
+    "hover": "transform: translateY(-2px)",
+    "fade_in": "opacity-0 animate-in fade-in duration-700 slide-in-from-bottom-4"
+  },
+  "universal_guidelines": [
+    "Use Space Grotesk for all Headings (H1-H3).",
+    "Use Manrope for all Body text.",
+    "Use JetBrains Mono for any code snippets or technical terms.",
+    "Ensure all text has sufficient contrast (APCA standards).",
+    "Do NOT use pure black (#000000) for backgrounds unless it's a specific art direction; use #0A0A0A.",
+    "Use 'lucide-react' for icons.",
+    "Interactive elements MUST have data-testid attributes.",
+    "Mobile First: Always design for mobile then scale up.",
+    "No gradients on dark backgrounds (bandings issue) - use solid dark colors or very subtle noise.",
+    "Primary Gradient (Blue/Purple/Cyan) should be used SPARINGLY (e.g., text gradient, button hover, active border)."
+  ]
+}
