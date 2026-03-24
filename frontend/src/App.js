@@ -6,7 +6,8 @@ import WhyChooseSection from "@/components/WhyChooseSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import WhatWeDoSection from "@/components/WhatWeDoSection";
 import TeamSection from "@/components/TeamSection";
-import BuildingSection from "@/components/BuildingSection";
+import TechStackSection from "@/components/TechStackSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -21,8 +22,9 @@ function App() {
         <WhyChooseSection />
         <WhatWeDoSection />
         <ProjectsSection />
+        <TechStackSection />
         <TeamSection />
-        <BuildingSection />
+        <TestimonialsSection />
         <ContactSection />
         <CTASection />
       </main>

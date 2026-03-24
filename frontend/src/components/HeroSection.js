@@ -71,7 +71,7 @@ export default function HeroSection() {
           >
             <span className="inline-flex items-center justify-center gap-2">
               Explore Our Work
-              <Sparkles size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+              <Sparkles size={14} className="group-hover:opacity-100 transition-opacity" />
             </span>
           </button>
           <button
