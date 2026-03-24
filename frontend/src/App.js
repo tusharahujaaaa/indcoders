@@ -8,6 +8,7 @@ import WhatWeDoSection from "@/components/WhatWeDoSection";
 import TeamSection from "@/components/TeamSection";
 import BuildingSection from "@/components/BuildingSection";
 import ContactSection from "@/components/ContactSection";
+import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <TeamSection />
         <BuildingSection />
         <ContactSection />
+        <CTASection />
       </main>
       <Footer />
     </div>

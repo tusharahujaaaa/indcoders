@@ -21,58 +21,59 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Build. Learn. Grow",
-  titleAccent: "with IndCoders",
-  subtitle: "Empowering developers through projects, mentorship, and community",
+  titleLine1: "Where Developers",
+  titleAccent: "Don't Just Learn",
+  titleLine2: "They Build.",
+  subtitle: "A community where developers don't just learn — they build. Real projects, real teams, real growth. No fluff, no gatekeeping.",
 };
 
 export const ABOUT_CONTENT = {
-  heading: "Who We Are",
+  heading: "We Started with a Simple Idea",
   description:
-    "IndCoders is a developer community built by developers, for developers. We believe that the best way to learn is by doing — building real projects, solving real problems, and growing together as a team.",
+    "Most developer communities talk about learning. We decided to actually do it. IndCoders started as a group of developers tired of tutorial hell and passive learning. We wanted a space where you show up, pick a project, and start building — with people who genuinely want to see you grow.",
   mission:
-    "To create a space where developers at any level can collaborate, learn through hands-on projects, and grow into confident builders.",
+    "We exist to give developers — especially those just starting out — a space where they can build real things, get honest feedback, and grow alongside people who care. No corporate jargon, just code and collaboration.",
   vision:
-    "To become the most impactful developer community in India — one that shapes careers, builds meaningful products, and fosters a culture of continuous learning.",
+    "We want IndCoders to be the community we wished we had when we started. A place that helps developers in India go from 'I watched a tutorial' to 'I shipped a product' — and everything in between.",
   whyWeExist:
-    "Because the gap between what is taught and what the industry demands is real. IndCoders bridges that gap with real-world exposure, mentorship, and community-driven growth.",
+    "Because watching tutorials alone doesn't make you job-ready. The gap between what colleges teach and what the industry expects is massive. We are here to close it — through hands-on projects, real collaboration, and honest mentorship.",
 };
 
 export const WHY_CHOOSE_FEATURES = [
   {
-    title: "Project-Based Learning",
+    title: "You Ship, Not Just Study",
     description:
-      "Learn by building real-world projects with real deadlines and real teams. No more tutorial hell.",
+      "Forget passive learning. Here you join real projects with real deadlines and build things that actually go live. That's how skills stick.",
     icon: "Code2",
   },
   {
-    title: "Community-Driven Growth",
+    title: "People Who Get It",
     description:
-      "Grow alongside motivated developers who share knowledge, review code, and push each other forward.",
+      "Everyone here is on the same journey. You'll find devs who review your code at midnight, share resources without being asked, and celebrate your wins.",
     icon: "Users",
   },
   {
-    title: "Beginner Friendly",
+    title: "Zero Gatekeeping",
     description:
-      "No gatekeeping. Whether you are writing your first line of code or shipping your tenth project, you belong here.",
+      "First pull request? Great. Never used Git before? We'll show you. The only requirement is that you're willing to put in the work and stay curious.",
     icon: "Heart",
   },
   {
-    title: "Practical Over Theory",
+    title: "Skills That Actually Matter",
     description:
-      "We focus on skills that matter — system design, collaboration, shipping products — not just memorizing syntax.",
+      "We focus on what gets you hired and makes you effective — system design, clean code, working in teams, debugging under pressure. Not just syntax.",
     icon: "Target",
   },
   {
-    title: "Mentorship Access",
+    title: "Mentors, Not Lecturers",
     description:
-      "Get guidance from experienced developers who have been through the journey and want to help you succeed.",
+      "Our mentors are working developers who've been through the struggle. They don't give speeches — they pair program with you and review your PRs.",
     icon: "GraduationCap",
   },
   {
-    title: "Open Source Culture",
+    title: "Open Source DNA",
     description:
-      "Contribute to open-source projects, build your GitHub profile, and learn how real software teams operate.",
+      "Contributing to open source is how you prove you can code. We build tools the community actually uses and help you make meaningful contributions.",
     icon: "GitBranch",
   },
 ];
@@ -114,27 +115,27 @@ export const PROJECTS_DATA = [
 
 export const SERVICES_DATA = [
   {
-    title: "Learning Support",
+    title: "Structured Learning Paths",
     description:
-      "Structured learning paths, curated resources, and study groups to help you master new technologies at your own pace.",
+      "We don't throw random resources at you. Our paths are curated by developers who've actually learned these stacks — with study groups to keep you accountable.",
     icon: "BookOpen",
   },
   {
-    title: "Building Real Projects",
+    title: "Real Project Experience",
     description:
-      "Collaborate on real-world projects that go beyond tutorials. Ship products, build portfolios, and gain practical experience.",
+      "You'll work on projects that ship. Not toy apps — real tools with users, deadlines, and code reviews. The kind of work that makes your portfolio stand out.",
     icon: "Hammer",
   },
   {
-    title: "Developer Collaboration",
+    title: "Peer Collaboration",
     description:
-      "Connect with developers across skill levels. Pair program, review code, and work on challenges together.",
+      "Pair programming, code reviews, hackathons, and brainstorming sessions. Learning is faster when you're doing it with people who challenge your thinking.",
     icon: "HandshakeIcon",
   },
   {
-    title: "Mentorship & Guidance",
+    title: "Career Guidance",
     description:
-      "Access mentors who provide career advice, technical guidance, and feedback on your projects and growth.",
+      "From resume reviews to mock interviews to 'should I take this job?' conversations — our mentors help you navigate the messy parts of a dev career.",
     icon: "Compass",
   },
 ];
@@ -143,49 +144,62 @@ export const TEAM_DATA = [
   {
     name: "Founder",
     role: "Founder & Lead",
+    tagline: "Started IndCoders from a hostel room",
     description:
-      "Passionate about building communities and empowering developers to reach their potential.",
+      "Built this community because they wished something like it existed when they started coding. Still codes every day.",
     image: "https://images.unsplash.com/photo-1595017734643-07386d930c6a?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
   {
     name: "Core Member",
     role: "Core Contributor",
+    tagline: "Full-stack dev & open source advocate",
     description:
-      "Drives project development and supports community members with technical expertise.",
+      "Leads project development and mentors new members. Believes the best code is written in collaboration.",
     image: "https://images.unsplash.com/photo-1533142215-a17cdfb95243?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
   {
-    name: "Open Position",
+    name: "You?",
     role: "Open for Contributors",
+    tagline: "This spot is waiting for you",
     description:
-      "We are always looking for passionate developers to join and shape the community.",
+      "We're always looking for people who want to build, teach, or just show up consistently. Interested? Reach out.",
     image: "https://images.unsplash.com/photo-1532170579297-281918c8ae72?crop=entropy&cs=srgb&fm=jpg&q=85&w=400",
   },
 ];
 
 export const BUILDING_CONTENT = {
-  heading: "What We're Building",
-  subtitle: "More than code — we are building a movement.",
+  heading: "Where We're Headed",
+  subtitle: "We're not just building software. We're building a generation of developers who ship.",
   items: [
     {
-      title: "A Thriving Developer Ecosystem",
+      phase: "Now",
+      title: "Building the Core Community",
       description:
-        "A space where developers don't just learn — they build, ship, collaborate, and grow together into a self-sustaining community.",
+        "Growing a tight-knit group of developers who learn by building together. Weekly projects, code reviews, and open discussions.",
     },
     {
-      title: "Industry-Ready Developers",
+      phase: "Next",
+      title: "Launching Open Source Tools",
       description:
-        "Our focus is on practical skills, real projects, and collaboration patterns that mirror how top tech teams actually work.",
+        "Creating developer tools the community actually needs — and open-sourcing everything so others can contribute and benefit.",
     },
     {
-      title: "Open Source Contributions",
+      phase: "Soon",
+      title: "Industry Partnerships",
       description:
-        "We are creating tools and projects the community can use and contribute to — giving back to the ecosystem that taught us.",
+        "Connecting our members with startups and companies looking for developers who can actually build — not just pass interviews.",
     },
     {
-      title: "A Culture of Continuous Learning",
+      phase: "Vision",
+      title: "India's Builder Community",
       description:
-        "Technology evolves fast. We are building a culture where curiosity is celebrated and growth never stops.",
+        "A self-sustaining ecosystem where developers from any background can find mentorship, projects, and opportunities to grow.",
     },
   ],
+};
+
+export const CTA_CONTENT = {
+  heading: "Ready to Stop Watching and Start Building?",
+  subtitle: "Join a community of developers who learn by doing. Your next project, your next skill, your next opportunity — it all starts here.",
+  buttonText: "Get Started",
 };

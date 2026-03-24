@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "@/config/siteConfig";
-import { ArrowDown, Sparkles } from "lucide-react";
+import { Sparkles, Terminal } from "lucide-react";
 
 export default function HeroSection() {
   const scrollTo = (id) => {
@@ -19,42 +19,45 @@ export default function HeroSection() {
     >
       {/* Background effects */}
       <div className="absolute inset-0 bg-[#0A0A0A]" />
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-blue-500/10 blur-[120px]" />
-      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-purple-500/8 blur-[100px]" />
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full bg-blue-600/8 blur-[150px]" />
+      <div className="absolute bottom-1/3 right-1/4 w-[500px] h-[500px] rounded-full bg-purple-600/6 blur-[130px]" />
+      <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] rounded-full bg-cyan-500/5 blur-[100px]" />
 
-      {/* Grid pattern */}
+      {/* Dot grid pattern */}
       <div
-        className="absolute inset-0 opacity-[0.03]"
+        className="absolute inset-0 opacity-[0.04]"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
+          backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)",
+          backgroundSize: "32px 32px",
         }}
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-12 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-8 animate-fade-in">
-          <Sparkles size={14} className="text-blue-400" />
-          <span className="text-sm font-medium text-[#A1A1AA] font-body">
+        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm mb-10 animate-fade-in">
+          <Terminal size={14} className="text-cyan-400" />
+          <span className="text-sm font-medium text-[#A1A1AA] font-body tracking-wide">
             Developer Community
           </span>
+          <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
         </div>
 
         {/* Title */}
         <h1
           data-testid="hero-title"
-          className="font-heading text-5xl md:text-7xl font-bold tracking-tighter text-white mb-4 animate-fade-in-up"
+          className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold tracking-tighter text-white mb-6 animate-fade-in-up leading-[0.95]"
         >
-          {HERO_CONTENT.title}
+          {HERO_CONTENT.titleLine1}
           <br />
           <span className="gradient-text">{HERO_CONTENT.titleAccent}</span>
+          <br />
+          <span className="text-white">{HERO_CONTENT.titleLine2}</span>
         </h1>
 
         {/* Subtitle */}
         <p
           data-testid="hero-subtitle"
-          className="text-base md:text-lg text-[#A1A1AA] font-body leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up animation-delay-200"
+          className="text-base md:text-lg text-[#888] font-body leading-relaxed max-w-xl mx-auto mb-12 animate-fade-in-up animation-delay-200"
         >
           {HERO_CONTENT.subtitle}
         </p>
@@ -64,22 +67,20 @@ export default function HeroSection() {
           <button
             data-testid="hero-explore-btn"
             onClick={() => scrollTo("about")}
-            className="rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 px-8 py-3 text-sm shadow-lg shadow-white/10"
+            className="group rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 px-8 py-3.5 text-sm shadow-[0_0_30px_-5px_rgba(255,255,255,0.15)]"
           >
-            Explore
+            <span className="flex items-center gap-2">
+              Explore
+              <Sparkles size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+            </span>
           </button>
           <button
             data-testid="hero-contact-btn"
             onClick={() => scrollTo("contact")}
-            className="rounded-full bg-white/10 border border-white/10 text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-md px-8 py-3 text-sm font-semibold"
+            className="rounded-full bg-white/[0.06] border border-white/10 text-white hover:bg-white/10 transition-all duration-300 backdrop-blur-md px-8 py-3.5 text-sm font-semibold"
           >
             Contact Us
           </button>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce-slow">
-          <ArrowDown size={20} className="text-[#525252]" />
         </div>
       </div>
     </section>

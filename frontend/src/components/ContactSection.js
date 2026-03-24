@@ -52,7 +52,7 @@ export default function ContactSection() {
       id="contact"
       ref={ref}
       data-testid="contact-section"
-      className="relative py-24 md:py-32 overflow-hidden"
+      className="relative py-28 md:py-40 overflow-hidden"
     >
       <Toaster
         theme="dark"
@@ -66,32 +66,33 @@ export default function ContactSection() {
         }}
       />
 
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1px] h-20 bg-gradient-to-b from-transparent via-white/10 to-transparent" />
       <div className="absolute top-0 left-1/3 w-[500px] h-[500px] rounded-full bg-purple-500/5 blur-[120px]" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center mb-16">
-          <p className={`text-sm font-medium tracking-wide uppercase text-blue-400 font-body mb-4 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+          <p className={`text-sm font-medium tracking-widest uppercase text-blue-400 font-body mb-5 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
             Get in Touch
           </p>
           <h2
             data-testid="contact-heading"
-            className={`font-heading text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+            className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-5 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
           >
-            Let's Connect
+            Let's Build Something Together
           </h2>
-          <p className={`text-base md:text-lg text-[#A1A1AA] font-body leading-relaxed max-w-2xl mx-auto transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-            Have an idea or want to collaborate? We would love to hear from you.
+          <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-xl mx-auto transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+            Got a project idea, a question, or just want to say hi? Drop us a message.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Contact Form */}
           <div
-            className={`rounded-2xl border border-white/10 bg-[#111111]/60 p-8 transition-all duration-700 delay-300 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
+            className={`rounded-2xl border border-white/[0.06] bg-[#111111]/40 p-8 lg:p-10 transition-all duration-700 delay-300 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
           >
-            <form onSubmit={handleSubmit} className="space-y-5" data-testid="contact-form">
+            <form onSubmit={handleSubmit} className="space-y-6" data-testid="contact-form">
               <div>
-                <label className="block text-sm font-medium text-[#A1A1AA] font-body mb-2">
+                <label className="block text-sm font-medium text-[#999] font-body mb-2.5">
                   Name
                 </label>
                 <Input
@@ -100,11 +101,11 @@ export default function ContactSection() {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="Your name"
-                  className="bg-white/5 border-white/10 text-white placeholder:text-gray-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 h-11"
+                  className="bg-white/[0.03] border-white/[0.08] text-white placeholder:text-[#555] focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/30 h-12 rounded-xl"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-[#A1A1AA] font-body mb-2">
+                <label className="block text-sm font-medium text-[#999] font-body mb-2.5">
                   Email
                 </label>
                 <Input
@@ -114,11 +115,11 @@ export default function ContactSection() {
                   value={form.email}
                   onChange={handleChange}
                   placeholder="you@example.com"
-                  className="bg-white/5 border-white/10 text-white placeholder:text-gray-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 h-11"
+                  className="bg-white/[0.03] border-white/[0.08] text-white placeholder:text-[#555] focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/30 h-12 rounded-xl"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-[#A1A1AA] font-body mb-2">
+                <label className="block text-sm font-medium text-[#999] font-body mb-2.5">
                   Message
                 </label>
                 <Textarea
@@ -126,16 +127,16 @@ export default function ContactSection() {
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Tell us about your idea..."
+                  placeholder="Tell us what you're thinking..."
                   rows={5}
-                  className="bg-white/5 border-white/10 text-white placeholder:text-gray-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-none"
+                  className="bg-white/[0.03] border-white/[0.08] text-white placeholder:text-[#555] focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/30 resize-none rounded-xl"
                 />
               </div>
               <Button
                 type="submit"
                 data-testid="contact-submit-btn"
                 disabled={loading || sent}
-                className="w-full rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 h-11 text-sm"
+                className="w-full rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 h-12 text-sm"
               >
                 {sent ? (
                   <span className="flex items-center gap-2">
@@ -159,41 +160,47 @@ export default function ContactSection() {
             className={`space-y-6 transition-all duration-700 delay-400 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
           >
             {/* Info card */}
-            <div className="rounded-2xl border border-white/10 bg-[#111111]/60 p-8">
-              <h3 className="font-heading text-lg font-semibold text-white mb-6">
-                Contact Details
+            <div className="rounded-2xl border border-white/[0.06] bg-[#111111]/40 p-8 lg:p-10">
+              <h3 className="font-heading text-lg font-semibold text-white mb-8">
+                Reach Out Directly
               </h3>
-              <div className="space-y-4">
+              <div className="space-y-5">
                 <a
                   href={`mailto:${CONTACT_INFO.email}`}
                   data-testid="contact-email-link"
-                  className="flex items-center gap-3 text-[#A1A1AA] hover:text-white transition-colors font-body text-sm"
+                  className="flex items-center gap-4 text-[#999] hover:text-white transition-colors font-body text-sm group"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+                  <div className="w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center group-hover:bg-blue-500/10 group-hover:border-blue-500/20 transition-all">
                     <Mail size={18} className="text-blue-400" />
                   </div>
-                  {CONTACT_INFO.email}
+                  <div>
+                    <p className="text-xs text-[#666] mb-0.5">Email</p>
+                    <p className="text-[#ccc] group-hover:text-white transition-colors">{CONTACT_INFO.email}</p>
+                  </div>
                 </a>
-                {CONTACT_INFO.phones.map((phone) => (
+                {CONTACT_INFO.phones.map((phone, i) => (
                   <a
                     key={phone}
                     href={`tel:${phone}`}
                     data-testid={`contact-phone-${phone}`}
-                    className="flex items-center gap-3 text-[#A1A1AA] hover:text-white transition-colors font-body text-sm"
+                    className="flex items-center gap-4 text-[#999] hover:text-white transition-colors font-body text-sm group"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+                    <div className="w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center group-hover:bg-blue-500/10 group-hover:border-blue-500/20 transition-all">
                       <Phone size={18} className="text-blue-400" />
                     </div>
-                    {phone}
+                    <div>
+                      <p className="text-xs text-[#666] mb-0.5">Phone {i + 1}</p>
+                      <p className="text-[#ccc] group-hover:text-white transition-colors">{phone}</p>
+                    </div>
                   </a>
                 ))}
               </div>
             </div>
 
             {/* Social links */}
-            <div className="rounded-2xl border border-white/10 bg-[#111111]/60 p-8">
+            <div className="rounded-2xl border border-white/[0.06] bg-[#111111]/40 p-8 lg:p-10">
               <h3 className="font-heading text-lg font-semibold text-white mb-6">
-                Follow Us
+                Find Us Online
               </h3>
               <div className="flex gap-3">
                 {[
@@ -207,7 +214,7 @@ export default function ContactSection() {
                     data-testid={`social-link-${social.label.toLowerCase()}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-[#A1A1AA] hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
+                    className="w-12 h-12 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-[#666] hover:text-white hover:bg-white/[0.08] hover:border-white/15 transition-all duration-300"
                   >
                     <social.icon size={20} />
                   </a>

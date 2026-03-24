@@ -11,21 +11,22 @@ export default function ProjectsSection() {
       id="projects"
       ref={ref}
       data-testid="projects-section"
-      className="relative py-24 md:py-32 overflow-hidden"
+      className="relative py-28 md:py-40 overflow-hidden"
     >
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1px] h-20 bg-gradient-to-b from-transparent via-white/10 to-transparent" />
       <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-cyan-500/5 blur-[120px]" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        <p className={`text-sm font-medium tracking-wide uppercase text-cyan-400 font-body mb-4 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+        <p className={`text-sm font-medium tracking-widest uppercase text-cyan-400 font-body mb-5 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           Our Work
         </p>
         <h2
           data-testid="projects-heading"
-          className={`font-heading text-3xl md:text-5xl font-bold tracking-tight text-white mb-4 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+          className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
           Projects
         </h2>
-        <p className={`text-base md:text-lg text-[#A1A1AA] font-body leading-relaxed max-w-2xl mb-16 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+        <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-2xl mb-20 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           Real projects built by the community, for the community.
         </p>
 
@@ -34,7 +35,7 @@ export default function ProjectsSection() {
             <div
               key={project.title}
               data-testid={`project-card-${i}`}
-              className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-[#111111]/60 p-8 hover:border-white/20 transition-all duration-500 ${
+              className={`group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-[#111111]/40 p-8 hover:border-white/15 transition-all duration-500 ${
                 inView
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-6"
@@ -48,7 +49,7 @@ export default function ProjectsSection() {
                 <h3 className="font-heading text-xl font-semibold text-white mb-3">
                   {project.title}
                 </h3>
-                <p className="text-[#A1A1AA] font-body text-sm leading-relaxed mb-5">
+                <p className="text-[#999] font-body text-sm leading-[1.8] mb-5">
                   {project.description}
                 </p>
 
