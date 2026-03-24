@@ -45,9 +45,9 @@ class ContactMessage(BaseModel):
     timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 class ContactMessageCreate(BaseModel):
-    name: str
-    email: str
-    message: str
+    name: str = Field(..., min_length=1)
+    email: str = Field(..., pattern=r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
+    message: str = Field(..., min_length=1)
 
 
 @api_router.get("/")
