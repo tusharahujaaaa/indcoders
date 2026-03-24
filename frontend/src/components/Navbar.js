@@ -70,9 +70,9 @@ export default function Navbar() {
             <Button
               data-testid="nav-join-btn"
               onClick={() => scrollTo("contact")}
-              className="rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 px-6 py-2 text-sm"
+              className="inline-flex items-center justify-center text-center rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 px-6 py-2 text-sm"
             >
-              Join Us
+              Get Started
             </Button>
           </div>
 
@@ -110,9 +110,9 @@ export default function Navbar() {
               <button
                 data-testid="mobile-join-btn"
                 onClick={() => scrollTo("contact")}
-                className="mt-2 rounded-full bg-white text-black font-semibold py-3 px-6 text-sm hover:bg-gray-200 transition-all"
+                className="mt-2 inline-flex items-center justify-center text-center rounded-full bg-white text-black font-semibold py-3 px-6 text-sm hover:bg-gray-200 transition-all"
               >
-                Join Us
+                Get Started
               </button>
             </div>
           </div>

@@ -67,19 +67,19 @@ export default function HeroSection() {
           <button
             data-testid="hero-explore-btn"
             onClick={() => scrollTo("about")}
-            className="group rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 px-8 py-3.5 text-sm shadow-[0_0_30px_-5px_rgba(255,255,255,0.15)]"
+            className="group inline-flex items-center justify-center text-center rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 px-8 py-3.5 text-sm shadow-[0_0_30px_-5px_rgba(255,255,255,0.15)]"
           >
-            <span className="flex items-center gap-2">
-              Explore
+            <span className="inline-flex items-center justify-center gap-2">
+              Explore Our Work
               <Sparkles size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
             </span>
           </button>
           <button
             data-testid="hero-contact-btn"
             onClick={() => scrollTo("contact")}
-            className="rounded-full bg-white/[0.06] border border-white/10 text-white hover:bg-white/10 transition-all duration-300 backdrop-blur-md px-8 py-3.5 text-sm font-semibold"
+            className="inline-flex items-center justify-center text-center rounded-full bg-white/[0.06] border border-white/10 text-white hover:bg-white/10 transition-all duration-300 backdrop-blur-md px-8 py-3.5 text-sm font-semibold"
           >
-            Contact Us
+            Talk to Us
           </button>
         </div>
       </div>

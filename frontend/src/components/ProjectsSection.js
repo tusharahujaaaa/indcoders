@@ -24,10 +24,10 @@ export default function ProjectsSection() {
           data-testid="projects-heading"
           className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          Projects
+          Projects That Solve Real Problems
         </h2>
         <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-2xl mb-20 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          Real projects built by the community, for the community.
+          These are not tutorial follow-alongs. Every project here is built by community members to solve actual developer pain points.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

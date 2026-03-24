@@ -136,17 +136,17 @@ export default function ContactSection() {
                 type="submit"
                 data-testid="contact-submit-btn"
                 disabled={loading || sent}
-                className="w-full rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 h-12 text-sm"
+                className="w-full inline-flex items-center justify-center text-center rounded-full bg-white text-[#0A0A0A] font-semibold hover:bg-gray-100 transition-all duration-300 h-12 text-sm"
               >
                 {sent ? (
-                  <span className="flex items-center gap-2">
+                  <span className="inline-flex items-center justify-center gap-2">
                     <CheckCircle size={16} />
                     Sent Successfully
                   </span>
                 ) : loading ? (
                   "Sending..."
                 ) : (
-                  <span className="flex items-center gap-2">
+                  <span className="inline-flex items-center justify-center gap-2">
                     <Send size={16} />
                     Send Message
                   </span>
