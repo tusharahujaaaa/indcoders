@@ -20,19 +20,31 @@ Build a fully responsive, modern, professional organization website for a develo
 - Social URLs as variables for easy later editing
 
 ## What's Been Implemented (Dec 2025)
-- Full single-page website with 9 sections
+- Full single-page website with 9 sections + CTA section
 - Sticky navbar with active section highlight + mobile hamburger menu
 - Hero with gradient text and CTA buttons
 - About (mission, vision, why we exist cards)
 - Why Choose Us (6 feature cards with icons)
 - Projects (4 project cards with tech stack tags)
 - What We Do (4 service cards)
-- Team (3 member cards with images)
-- What We're Building (4 vision/future goal cards)
+- Team (3 member cards with images, role badges, taglines)
+- What We're Building (timeline layout with phase indicators)
 - Contact form (frontend + backend POST /api/contact with validation)
+- CTA section before footer ("Ready to Stop Watching and Start Building?")
 - Footer with quick links, contact info, social links
 - IntersectionObserver-based scroll animations
 - Backend email validation on contact endpoint
+
+### Iteration 2: UI/UX Refinement (Dec 2025)
+- Rewrote all content to be natural, conversational, developer-authentic
+- Stronger hero headline: "Where Developers Don't Just Learn — They Build"
+- Removed arrow icon from hero, added live dot indicator badge
+- Building section redesigned with timeline layout (Now/Next/Soon/Vision phases)
+- Added CTA section before footer
+- Contact heading updated to "Let's Build Something Together"
+- Team cards enhanced with role badges and taglines
+- Improved spacing (py-28/py-40), section dividers, typography hierarchy
+- Consistent card styling across all sections
 
 ## Testing Results
 - Backend: 100% (validation added)
