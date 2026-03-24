@@ -19,8 +19,8 @@ function App() {
         <HeroSection />
         <AboutSection />
         <WhyChooseSection />
-        <ProjectsSection />
         <WhatWeDoSection />
+        <ProjectsSection />
         <TeamSection />
         <BuildingSection />
         <ContactSection />

@@ -37,7 +37,7 @@ export default function HeroSection() {
         <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm mb-10 animate-fade-in">
           <Terminal size={14} className="text-cyan-400" />
           <span className="text-sm font-medium text-[#A1A1AA] font-body tracking-wide">
-            Developer Community
+            IT Services & Solutions
           </span>
           <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
         </div>

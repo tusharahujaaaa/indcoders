@@ -78,10 +78,10 @@ export default function ContactSection() {
             data-testid="contact-heading"
             className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-5 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
           >
-            Let's Build Something Together
+            Let's Build Your Next Product
           </h2>
           <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-xl mx-auto transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-            Got a project idea, a question, or just want to say hi? Drop us a message.
+            Have a project idea, need a tech partner, or want a free consultation? We are here to help.
           </p>
         </div>
 

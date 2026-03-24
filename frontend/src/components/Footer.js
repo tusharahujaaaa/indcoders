@@ -22,8 +22,8 @@ export default function Footer() {
               Ind<span className="gradient-text">Coders</span>
             </div>
             <p className="text-[#A1A1AA] font-body text-sm leading-relaxed max-w-sm mb-6">
-              Structured developer community focused on real-world projects,
-              peer mentorship, and career-ready skill building across India.
+              IT services company delivering custom software, cloud solutions,
+              and digital transformation for businesses across India and beyond.
             </p>
             <div className="flex gap-3">
               {[

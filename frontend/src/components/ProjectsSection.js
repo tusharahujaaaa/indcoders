@@ -18,16 +18,16 @@ export default function ProjectsSection() {
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <p className={`text-sm font-medium tracking-widest uppercase text-cyan-400 font-body mb-5 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          Our Work
+          Our Portfolio
         </p>
         <h2
           data-testid="projects-heading"
           className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          Projects That Solve Real Problems
+          Projects We Have Delivered
         </h2>
         <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] max-w-2xl mb-20 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          These are not tutorial follow-alongs. Every project here is built by community members to solve actual developer pain points.
+          Real solutions built for real businesses — on time, on budget, and built to scale.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -2,20 +2,20 @@ import { WHY_CHOOSE_FEATURES } from "@/config/siteConfig";
 import {
   Code2,
   Users,
-  Heart,
   Target,
-  GraduationCap,
-  GitBranch,
+  Cpu,
+  TrendingUp,
+  Shield,
 } from "lucide-react";
 import { useInView } from "@/hooks/useInView";
 
 const iconMap = {
   Code2,
   Users,
-  Heart,
   Target,
-  GraduationCap,
-  GitBranch,
+  Cpu,
+  TrendingUp,
+  Shield,
 };
 
 const accentColors = [
@@ -49,10 +49,10 @@ export default function WhyChooseSection() {
             data-testid="why-choose-heading"
             className={`font-heading text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 transition-all duration-700 delay-100 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
           >
-            What Makes Us Different
+            Why Businesses Choose Us
           </h2>
           <p className={`text-base md:text-lg text-[#999] font-body leading-[1.8] transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-            We are not another Discord server that dies in two weeks. Here is what you actually get.
+            We do not just write code — we build solutions that drive your business forward. Here is what sets us apart.
           </p>
         </div>
 
